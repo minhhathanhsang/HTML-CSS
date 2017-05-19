@@ -8,10 +8,11 @@
 	width:1263px;
 	min-height:1105px;
 	position:relative;
+        
 }
 
 #nav{
-	background:url("../img/bg_header.jpg");
+	background:url("../img/fill_header.jpg");
 	width:100%;
 	height:305px;
 	margin-bottom:62px;
@@ -71,7 +72,8 @@
 	border-top:1px solid #707070;
 	margin:44px 22px;
 	height:145px;
-	border-bottom:0.01em solid #707070;
+	border-bottom:solid 1px #2c2c2c;
+        
 	margin-bottom:30px;
 }
 #left .box1 p {
@@ -81,13 +83,12 @@
 	
 }
 #left .box2 ul{
-	list-style-type:square;
+	list-style-image:url(../img/arr.gif);
 	margin-left:45px;
 }
-#left .box2 li{
-	margin-bottom:2px;
-}
+
 #left .box2 li a{
+        vertical-align:middle;       
 	text-decoration:underline;
 	color:#707070;
 }
@@ -143,6 +144,7 @@
 	height:100px;
 	clear:both;
 	border-top:dotted 1px #707070;
+        font-size:10px;
 }
 #footer p{
 		color:#707070;
