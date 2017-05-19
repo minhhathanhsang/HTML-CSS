@@ -11,13 +11,13 @@
 }
 
 #nav{
-	background:url("../images/bg_header.jpg");
+	background:url("../img/bg_header.jpg");
 	width:100%;
 	height:305px;
 	margin-bottom:62px;
 }
 #nav .logo{
-	background:url("../images/logo.jpg");
+	background:url("../img/logo.jpg");
 	width:353px;
 	height:116px;
 	position:absolute;
@@ -129,7 +129,7 @@
 		margin-bottom:20px;
 }
 .content-box .launch::before{
-	content: url("../images/arr_1.gif");
+	content: url("../img/arr_1.gif");
 	margin-right:8px;
 }
 .content-box .launch{
