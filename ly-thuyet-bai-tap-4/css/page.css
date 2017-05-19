@@ -9,6 +9,15 @@ div.container{
     background-color:#e5f3fb;
 }
 
+div.top__border__first__child{
+    margin-left : 10px;
+    margin-right : 10px;
+    padding-bottom:1px;
+    border-top : solid #e0a536 4px;
+    background-color: white;
+    
+}
+
 div.top__border{
     margin-left : 10px;
     margin-right : 10px;
@@ -70,7 +79,7 @@ div.final__paragraph{
     margin-bottom: 15px;
     border : 1px solid #e2dcdc;
     background-color:white;
-    color:#4bcccd;
+    color:#40c296;
 }
 
 table{
@@ -95,12 +104,15 @@ a{
 ul{
    margin: 5px 0 0px 0px;
    list-style:none;
+   
 }
 
 ul li{
-   margin:0 0 2px -41px;
+   padding:10px 10px 10px 0;
+   margin:0 0 2px -40px;
    background-color:#fbf1c0;
 }
+
 
 .date__text{
    color:#808080;
