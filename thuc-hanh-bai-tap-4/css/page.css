@@ -1,5 +1,6 @@
                *{
                    font-size:12px;
+                   font-family:arial;
                 }
 
                 ul{
@@ -18,6 +19,10 @@
                 
                 a.white__text{
                       color:white;
+                }
+
+                a.black__text{
+                      color:black;
                 }
                 
                 a.watch{
@@ -90,7 +95,8 @@
                       vertical-align:top;
                 }
 
-                div.form__search button{                
+                div.form__search button{ 
+                      color:white;               
                       background-color:#cc4993;
                       border:none;
                       width:60px;
