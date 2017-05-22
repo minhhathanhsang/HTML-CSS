@@ -1,0 +1,430 @@
+               *{
+                   font-size:12px;
+                }
+
+                ul{
+                      list-style-type: none;
+                      
+                      
+                }
+
+                li{
+                      display: inline;
+                }
+
+                a{
+                      text-decoration:none;                 
+                }
+                
+                a.white__text{
+                      color:white;
+                }
+                
+                a.watch{
+                      font-size:14px;   
+                } 
+                a.watch::before{
+                      content:url("../img/watch.jpg");
+                      vertical-align:-50%;
+                }
+                
+                div.container{
+                      margin-left:auto;
+                      margin-right:auto;
+                      width:1080px;
+                      background-color:#292728;
+                }
+                 
+                div.text__center{
+                      text-align:center;
+                }
+
+                div.link__footer{                    
+                      height:20px; 
+                      background-color:white;
+                }
+
+                div.link__footer ul{
+                      margin-left:115px;
+                      padding-top:15px;
+                }
+
+                div.icon__footer{
+                      
+                      height:100px;
+                }
+
+                div.icon__with__text{
+                      display:inline-block;
+                      width:212px;
+                      text-align:center;
+                }
+
+                div.icon__with__text img{                    
+                      margin-left:auto;
+                      margin-right:auto;
+                      display: block;
+                }
+                
+                div.right__content{
+                      margin-left:750px;
+                      
+                      position:relative;
+                      height:800px
+                }
+                
+                div.right__content img{
+                      
+                      position:absolute;
+                      top:10px;
+                      left:0;
+                }
+
+                div.right__content div.form__search{
+                      position:absolute;
+                      top:55px;
+                      left:17px;                     
+                }
+
+                div.form__search form{                
+                      vertical-align:top;
+                }
+
+                div.form__search button{                
+                      background-color:#cc4993;
+                      border:none;
+                      width:60px;
+                }
+                
+                div.form__search input{                
+                      width:145px;
+                }
+                
+                div.left__content{
+                      margin-left:3px;
+                      margin-top:15px;
+                      float:left;
+                      width:700px;
+                      height:312px;
+                      background-color:white;
+                      position:relatives;
+                }
+
+                div.middle__image{                   
+                    top:310px;
+                    position:absolute;
+                    height:25px;                                         
+                    width:677px;
+                    margin-left:12px;
+
+                    background-repeat: no-repeat;
+                    background-size: 100% 100%;
+
+                }
+
+                div.top__title__left{
+                    top:350px;
+                    position:absolute;
+                    height:25px;                                         
+                    width:330px;
+                    margin-left:2px;
+                    background-repeat: no-repeat;
+                    background-size: 100% 100%;
+                    color:white;
+                    padding-left:10px;
+                    padding-top:10px;
+                    font-weight:bold;
+                    font-size:16px;
+                    
+                }
+
+                div.movie__trailer{
+                    display:block;
+                    margin-left:2px;
+                    width:334px;
+                    position:absolute;
+                    height:22px;
+                    border-top:1px dotted black;
+                    background-image:url("../img/movie-trailers.jpg");
+                    background-repeat: no-repeat;
+                    background-size:100% 100%;
+                    color:#0d83c1; 
+                    font-weight:bold;
+                    padding-left:6px;
+                    padding-top:2px;
+                    font-size:13px;
+                    background-color:white;
+                }
+
+                div.movie__trailer a{
+                      float: right;
+                      margin-right:10px;
+                }
+                .show a{
+                     margin-top:5px;
+                }
+
+                div.movie__trailer__content{
+                    margin-top:5px;
+                    margin-left:2px;
+                    width:340px;
+                    position:absolute;
+                    background-color:white;
+                     
+                    padding-bottom:10px;                   
+                }
+                
+                div.movie__trailer__content img{
+                    float:left;
+                    margin-top:10px;                    
+                    margin-left:10px;
+                    margin-right:10px;
+                    width:130px;
+                    height:100px;
+                }
+
+                div.movie__trailer__content__text{
+                    margin-top:10px;
+                    font-size:13.5px;
+                    margin-bottom:10px;
+                }
+
+                div.movie__trailer__show__more{
+                    margin-left:2px;
+                    width:334px;
+                    position:absolute;
+                    height:22px;
+                    
+                    background-color:white;
+                    padding-left:6px;
+                    padding-top:2px;
+                    font-size:13px;
+                }
+
+                div.movie__trailer__show__more img{
+                    float:left;
+                    margin-right:5px;
+                }
+
+                div.top__title__right{
+                    top:350px;
+                    position:absolute;
+                    height:25px;                                         
+                    width:330px;
+                    margin-left:360px;
+                    background-repeat: no-repeat;
+                    background-size: 100% 100%;
+                    color:white;
+                    padding-left:10px;
+                    padding-top:10px;
+                    font-weight:bold;
+                    font-size:16px;
+                }
+
+                div.right__movie__review{                  
+                    position:absolute;
+                    height:25px;                                         
+                    width:340px;
+                    margin-left:360px;
+                    margin-bottom:10px;
+                    background-color:white;
+                    border-top:1px dotted black;
+                    padding-bottom:25px;
+                }
+                 
+                div.right__movie__watch{
+                    margin-top:-10px;
+                    padding-left:10px;
+                    display:block;
+                    padding-bottom:30px;
+                    background-color:white;
+                }
+
+                div.right__movie__title{
+                    margin-top:10px;
+                    margin-left:10px;
+                    font-size:15px;
+                    font-weight:bold;
+                    color:#0d83c1;
+                    
+                }
+                
+                div.right__movie__title img{
+                    float:right;
+                    margin-right:10px;
+                    margin-top:-5px;
+                }
+
+                div.right__movie__content{
+                    padding:5px 5px 27px 20px;
+                    font-size:13.5px;
+                    margin-bottom:10px;
+                    background-color:white;
+                }
+
+                div.right__movie__content img{
+                    float:left;
+                    margin-right:10px;
+                    margin-left:-10px;
+                    
+                }
+                                     
+                div.title__left{                     
+                     height:30px;
+                     
+                     
+                     float:left;
+                     background-color:red;
+                     color:white;
+                     width:350px;
+                     border-top:2px solid white;
+                     display: flex;     
+                }
+
+                div.title__right{
+                     height:30px;
+                     border-left:1px solid black;
+                     
+                     border-top:2px solid white;
+                     float:left;
+                     background-color:red;
+                     color:white;
+                     width:349px;
+                     display: flex;    
+                }
+
+                div.info__left{
+                     height:260px;
+                     margin-left:2px;
+                     border-top:1px dotted black;
+                     float:left;
+                     
+                     color:black;
+                     width:348px;
+                     position:relative;
+                      
+                }
+
+                div.info__right{
+                     height:260px;
+                     border-top:1px dotted black;
+                     border-left:1px dotted black;
+                     margin-right:2px;
+                     float:left;
+                     
+                     color:black;
+                     width:347px;
+                     position:relative;
+                     
+                }
+
+                div.info__left .first__image{
+                     position:absolute;
+                     left:10px;
+                     top:10px;
+                     right:10px;
+                     width:328px;
+                     
+                }
+
+                div.info__left .second__image{
+                     position:absolute;
+                     left:10px;
+                     top:175px;
+                     right:10px;
+                     width:328px;
+                     
+                }
+                
+                div.info__left div.link__more{
+                     position:absolute;
+                     top:174px;
+                     right:35px;
+                }
+
+                div.info__left div.text__content{
+                     position:absolute;
+                     left:10px;
+                     top:205px;
+                     right:10px;
+                     width:328px;
+
+                     
+                     
+                }
+                
+                div.info__right .first__image{
+                     position:absolute;
+                     left:10px;
+                     top:10px;
+                     right:10px;
+                     width:327px;
+                     
+                }
+
+                div.info__right .second__image{
+                     position:absolute;
+                     left:10px;
+                     top:175px;
+                     right:10px;
+                     width:328px;
+                     
+                }
+
+                div.info__right div.link__more{
+                     position:absolute;
+                     top:174px;
+                     right:34px;
+                }
+
+                div.info__right div.text__content{
+                     position:absolute;
+                     left:10px;
+                     top:205px;
+                     right:10px;
+                     width:328px;
+
+                     
+                }
+
+                div.more__review__movie{
+                     padding-top:10px;
+                }
+
+                hr{
+                      border:none;
+                      border-top:1px dashed white;
+                      margin-bottom:-5px;
+                }
+                
+                div.text{
+                      flex: 1;
+                      padding-left:10px;
+                      padding-top:5px;
+                      font-size:18px;
+                      
+                }
+                
+                #movie__sl{
+                      width:235px;
+                }
+                
+                a.left__link{
+                     margin-left:8px;
+                     
+                     font-size:14px;
+                     font-weight:bold;
+                }
+                
+                a.left__link::before{
+                     content:url("../img/local_movie.jpg");
+                     vertical-align:-75%;
+                }
+
+                a.right__link{
+                     margin-top:10px;
+                     margin-right:10px;
+                     float:right;
+                     font-size:14px;
+                     color:black;
+                }
