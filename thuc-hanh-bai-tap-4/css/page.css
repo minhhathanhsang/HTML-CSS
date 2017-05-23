@@ -29,8 +29,16 @@
                       font-size:14px;   
                 } 
                 a.watch::before{
-                      content:url("../img/watch.jpg");
-                      vertical-align:-50%;
+                      
+                      vertical-align:middle;
+
+                      display: inline-block;
+                      width: 18px;
+                      height: 18px;
+                      
+                      content: "";
+                      background: url("../img/watch.jpg") no-repeat 0 0;
+                      background-size: 100%;
                 }
                 
                 div.container{
@@ -50,7 +58,7 @@
                 }
 
                 div.link__footer ul{
-                      margin-left:115px;
+                      margin-left:40px;
                       padding-top:15px;
                 }
 
@@ -186,12 +194,12 @@
                     margin-left:10px;
                     margin-right:10px;
                     width:130px;
-                    height:100px;
+                    height:90px;
                 }
 
                 div.movie__trailer__content__text{
                     margin-top:10px;
-                    font-size:13.5px;
+                    font-size:12.75px;
                     margin-bottom:10px;
                 }
 
@@ -235,7 +243,7 @@
                     margin-bottom:10px;
                     background-color:white;
                     border-top:1px dotted black;
-                    padding-bottom:25px;
+                    padding-bottom:10px;
                 }
                  
                 div.right__movie__watch{
@@ -349,6 +357,7 @@
                 }
 
                 div.info__left div.text__content{
+                     font-size:12px;
                      position:absolute;
                      left:10px;
                      top:205px;
@@ -384,6 +393,7 @@
                 }
 
                 div.info__right div.text__content{
+                     font-size:11.5px;
                      position:absolute;
                      left:10px;
                      top:205px;
@@ -423,12 +433,19 @@
                 }
                 
                 a.left__link::before{
-                     content:url("../img/local_movie.jpg");
-                     vertical-align:-75%;
+                     
+                       vertical-align:middle;
+
+                      display: inline-block;
+                      width: 18px;
+                      height: 18px;                      
+                      content: "";
+                      background: url("../img/local_movie.jpg") no-repeat 0 0;
+                      background-size: 100%;
                 }
 
                 a.right__link{
-                     margin-top:10px;
+                     
                      margin-right:10px;
                      float:right;
                      font-size:14px;
